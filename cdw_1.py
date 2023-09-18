@@ -3,7 +3,8 @@
 import requests
 from bs4 import BeautifulSoup
 #
-url = "https://www.codewars.com/users/EdSever"
+users = "EdSever"
+url = f"https://www.codewars.com/users/{users}"
 
 headers = {
     'Accept': '*/*',
